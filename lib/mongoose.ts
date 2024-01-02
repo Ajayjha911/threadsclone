@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
 let isConnected = false;
-// const uri =
-//   "mongodb+srv://ajayindra911:6X7amjsWHdTrfArP@cluster0.346kmqi.mongodb.net/?retryWrites=true&w=majority";
 export const connectToDB = async () => {
   mongoose.set("strictQuery", true);
 
