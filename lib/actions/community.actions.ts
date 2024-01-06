@@ -3,7 +3,7 @@
 import { FilterQuery, SortOrder } from "mongoose";
 
 import { connectToDB } from "../mongoose";
-import { User } from "@clerk/nextjs/server";
+import User from "../models/user.models";
 import Community from "../models/community.models";
 import Thread from "../models/thread.models";
 
